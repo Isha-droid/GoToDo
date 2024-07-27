@@ -1,0 +1,35 @@
+# air.toml
+
+# The root directory of your project.
+root = "."
+
+# The directory where Air will look for Go files to watch.
+# Change this if your Go files are in a different directory.
+watch_dir = "."
+
+# The path to the binary that will be executed.
+# This is usually the name of your main Go file (without the .go extension).
+bin = "main"
+
+# The command to run when reloading.
+# Default is `go run main.go`. You can change this if you need to use a different command.
+cmd = "go run main.go"
+
+# List of file extensions to watch.
+# Default includes all `.go` files.
+include_ext = ["go"]
+
+# List of file patterns to ignore.
+# Default includes .git directory and other common files.
+exclude_dir = ["vendor", ".git", "node_modules"]
+
+# How often to check for changes (in milliseconds).
+# Default is 1000 (1 second).
+poll_interval = 1000
+
+# Set to true if you want to show logs from the Air process itself.
+log_level = "info"
+
+# Set the environment variables here if needed.
+[env]
+# Example: MY_VAR = "value"
