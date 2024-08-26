@@ -1,4 +1,4 @@
-# My First Go Project.
+# My First Go Project
 
 Welcome to my first Go project! This project was created with guidance from Free Code Camp and showcases the basics of the Go programming language. Below you will find a comprehensive overview of the project, including its features, how to get started, and how to contribute.
 
